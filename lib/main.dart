@@ -1,6 +1,7 @@
 import 'package:classify/pages/home_page.dart';
 import 'package:classify/pages/splash_page.dart';
 import 'package:classify/utils/routes.dart';
+import 'package:classify/utils/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -18,6 +19,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
+      theme: Mytheme.lightTheme(context),
+      darkTheme: Mytheme.darkTheme(context),
       initialRoute: MyRoutes.splashRoute,
       // Update the routes map
       routes: {
