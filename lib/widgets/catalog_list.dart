@@ -1,4 +1,5 @@
 import 'package:classify/models/catalog.dart';
+import 'package:classify/pages/home_page_detail.dart';
 import 'package:classify/widgets/catalog_item.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,10 @@ class CatalogList extends StatelessWidget {
       itemCount: CatalogModel.items.length,
       itemBuilder: (context, index) {
         final catalog = CatalogModel.items[index];
-        return CatalogItem(catalog: catalog);
+        return InkWell(
+          onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => HomePageDetail(catalog : catalog))),
+          child: CatalogItem(catalog: catalog),
+        );
       },
     );
   }

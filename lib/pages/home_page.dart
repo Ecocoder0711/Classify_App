@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:classify/models/item.dart';
 import 'package:classify/models/catalog.dart';
-import 'package:classify/utils/routes.dart';
 import 'package:classify/widgets/catalog_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -43,18 +42,18 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: context.canvasColor,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => Navigator.pushNamed(context, MyRoutes.splashRoute),
-        backgroundColor: context.theme.highlightColor,
-        child: const Icon(Icons.shopping_cart, color: Colors.white),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () => Navigator.pushNamed(context, MyRoutes.splashRoute),
+      //   backgroundColor: context.theme.highlightColor,
+      //   child: const Icon(Icons.shopping_cart, color: Colors.white),
+      // ),
       body: SafeArea(
         child: Container(
           padding: Vx.m32,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              "Catalog App".text.xl5.bold
+              "Your Cataloger".text.xl4.bold
                   .color(context.theme.primaryColor)
                   .make(),
               if (CatalogModel.items.isNotEmpty)

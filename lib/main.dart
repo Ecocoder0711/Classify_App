@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
       // Update the routes map
       routes: {
         MyRoutes.splashRoute: (context) => const SplashPage(),
-        MyRoutes.homeRoute: (context) => const HomePage(), // Replaced LoginPage
+        MyRoutes.homeRoute: (context) => const HomePage(),
+        // MyRoutes.detailRoute:(context) => const HomePageDetail(), // Replaced LoginPage
       },
     );
   }

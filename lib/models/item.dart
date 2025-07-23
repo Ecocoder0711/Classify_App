@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 class Item {
   final int id;
   final String name;
@@ -25,12 +27,14 @@ class Item {
       color: map['color'],
     );
   }
+
+  get image => null;
   toMap() => {
-        "id": id,
-        "name": name,
-        "desc": description,
-        "price": price,
-        "color": color,
-        "images": images,
-      };
+    "id": id,
+    "name": name,
+    "desc": description,
+    "price": price,
+    "color": color,
+    "images": images,
+  };
 }
