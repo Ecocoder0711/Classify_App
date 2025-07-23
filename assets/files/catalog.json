@@ -1,0 +1,43 @@
+{
+    "product" : [
+        {
+            "id": 1,
+            "name": "iPhone 15 Pro",
+            "desc": "The latest and greatest from Apple. Featuring the A17 Pro chip, a customizable Action button, and the best iPhone camera system yet.",
+            "price": 999,
+            "color": "#33505a",
+            "images": [
+                "https://m.media-amazon.com/images/I/81CgtwSII3L._SL1500_.jpg",
+                "https://cdn1.smartprix.com/rx-iVnpXHInm-w420-h420/apple-iphone-15-pro.webp",
+                "https://cdn1.smartprix.com/rx-iMvT6HNDE-w1200-h1200/apple-iphone-15-pro.webp"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S24",
+            "desc": "Galaxy AI is here. Search like never before, get real-time translations on a call, and edit your photos with AI.",
+            "price": 899,
+            "color": "#f5f5f5",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCUaI4tqvsexaZw2KzYYzc6Q_JwPJ8lIYkYw&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvKp4sux35s1jQVWRfD_Q9Du6SDOESmS-7g&s",
+                "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/09/Galaxy-S24-5K3-scaled.jpg?ssl=1"
+            ]
+        },
+        {
+      "id": 3,
+      "name": "Google Pixel 8",
+      "desc": "The Google Pixel 8 is the helpful phone, engineered by Google. With a powerful new processor and an upgraded camera system.",
+      "price": 799,
+      "color": "#a7c4c6",
+      "images": [
+        "https://www.designinfo.in/wp-content/uploads/2024/03/google-pixel-8-128gb-hazel-1.webp",
+        "https://cdn1.smartprix.com/rx-iL2DheLlW-w1200-h1200/google-pixel-8-pro.webp",
+        "https://cdn1.smartprix.com/rx-iEqBGeU3C-w1200-h1200/google-pixel-8-pro.webp"
+
+      ]
+    }
+
+
+    ]
+}
