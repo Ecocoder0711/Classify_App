@@ -16,51 +16,56 @@ class _HomePageDetailState extends State<HomePageDetail> {
   int _currentPage = 0;
   @override
   Widget build(BuildContext context) {
+    // var image;
+    // final isNetworkImage = image.startsWith('http');
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.transparent, elevation: 0),
-      backgroundColor: context.cardColor,
+      backgroundColor: context.canvasColor,
       body: SafeArea(
         bottom: false,
         child: Column(
           children: [
-            SizedBox(
-              height: context.screenHeight * 0.4,
-              child: PageView.builder(
-                itemCount: widget.catalog.image,
-                onPageChanged: (page) {
-                  setState(() {
-                    _currentPage = page;
-                  });
-                },
-                itemBuilder: (context, index) {
-                  return Hero(
-                    tag: Key("${widget.catalog.id}_$index"),
-                    child: Image.network(
-                      widget.catalog.images[index],
-                      fit: BoxFit.contain,
-                    ).p16(),
-                  );
-                },
-              ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: List.generate(
-                widget.catalog.images.length,
-                (index) => AnimatedContainer(
-                  duration: const Duration(milliseconds: 300),
-                  margin: const EdgeInsets.symmetric(horizontal: 4),
-                  height: 8,
-                  width: _currentPage == index ? 24 : 8,
-                  decoration: BoxDecoration(
-                    color: _currentPage == index
-                        ? context.accentColor
-                        : Colors.grey,
-                    borderRadius: BorderRadius.circular(4),
-                  ),
+            Hero(
+              tag: Key(widget.catalog.id.toString()),
+              child: SizedBox(
+                height: context.screenHeight * 0.4,
+                child: PageView.builder(
+                  itemCount: widget.catalog.images.length,
+                  onPageChanged: (page) {
+                    setState(() {
+                      _currentPage = page;
+                    });
+                  },
+                  itemBuilder: (context, index) {
+                    final imagePath = widget.catalog.images[index];
+                    final isNetworkImage = imagePath.startsWith('http');
+                    return (isNetworkImage
+                            ? Image.network(imagePath)
+                            : Image.asset(imagePath))
+                        .p16();
+                  },
                 ),
               ),
             ),
+            if (widget.catalog.images.length > 1)
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: List.generate(
+                  widget.catalog.images.length,
+                  (index) => AnimatedContainer(
+                    duration: const Duration(milliseconds: 300),
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    height: 8,
+                    width: _currentPage == index ? 28 : 8,
+                    decoration: BoxDecoration(
+                      color: _currentPage == index
+                          ? context.theme.primaryColor
+                          : Colors.grey,
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                  ),
+                ),
+              ).pOnly(top: 8),
             20.heightBox,
             Expanded(
               child: VxArc(
@@ -74,11 +79,11 @@ class _HomePageDetailState extends State<HomePageDetail> {
                     child: Column(
                       children: [
                         widget.catalog.name.text.xl4
-                            .color(context.accentColor)
+                            .color(context.theme.primaryColor)
                             .bold
                             .make(),
                         10.heightBox,
-                        "\$${widget.catalog.price}".text.xl2.bold.make().p8(),
+                        "₹${widget.catalog.price}".text.xl2.bold.make().p8(),
                         20.heightBox,
                         widget.catalog.description.text.xl.make().px16(),
                       ],

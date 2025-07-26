@@ -37,7 +37,7 @@ class CatalogItem extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(height: 10),
-                    "\$${catalog.price}".text.bold.xl.make().p16(),
+                    "₹${catalog.price}".text.bold.xl.make().p16(),
                     // ElevatedButton(
                     //   onPressed: () {
                     //     // We will add functionality here later.

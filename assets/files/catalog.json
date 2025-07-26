@@ -26,17 +26,101 @@
         },
         {
       "id": 3,
-      "name": "Google Pixel 8",
-      "desc": "The Google Pixel 8 is the helpful phone, engineered by Google. With a powerful new processor and an upgraded camera system.",
-      "price": 799,
+      "name": "Super foils (25m)",
+      "desc": "Super foils 25 mter is high-quality silver foil for various uses.",
+      "price": 88,
       "color": "#a7c4c6",
       "images": [
-        "https://www.designinfo.in/wp-content/uploads/2024/03/google-pixel-8-128gb-hazel-1.webp",
-        "https://cdn1.smartprix.com/rx-iL2DheLlW-w1200-h1200/google-pixel-8-pro.webp",
-        "https://cdn1.smartprix.com/rx-iEqBGeU3C-w1200-h1200/google-pixel-8-pro.webp"
-
+        "assets/images/foil/foil_1.png",
+        "assets/images/foil/foil_1.jpeg"
       ]
+
+    },
+    {
+      "id": 4,
+      "name": "Super foils (9m)",
+      "desc": "Super foils 9 mter is high-quality silver foil for various uses.",
+      "price": 38,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_3.png",
+        "assets/images/foil/foil_3.jpeg"
+      ]
+      
+    },
+     {
+      "id": 5,
+      "name": "Shine foils (25m)",
+      "desc": "Shine foils 25 mter is high-quality silver foil for various uses.",
+      "price": 130,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_2.png",
+        "assets/images/foil/foil_2.jpeg"
+      ]
+      
+    },
+    {
+      "id": 55,
+      "name": "Shine foils (9m)",
+      "desc": "Shine foils 9 mter is high-quality silver foil for various uses.",
+      "price": 88,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_6.png",
+        "assets/images/foil/foil_6.jpeg"
+      ]
+      
+    },
+    {
+      "id": 295,
+      "name": "Shine foils (72m)",
+      "desc": "Shine foils 72 mter is high-quality silver foil for various uses.",
+      "price": 88,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_4.png",
+        "assets/images/foil/foil_4.jpeg"
+      ]
+      
+    },
+    {
+      "id": 8,
+      "name": "Shine foils (72 Number)",
+      "desc": "Shine foils 72 Number is high-quality silver foil for various uses.",
+      "price": 190,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_5.png",
+        "assets/images/foil/foil_5.jpeg"
+      ]
+      
+    },
+    {
+      "id": 9,
+      "name": "Shine foils (1 Kg GROSS)",
+      "desc": "Shine foils 1 Kg GROSS is high-quality silver foil for various uses.",
+      "price": 380,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/foil/foil_7.png",
+        "assets/images/foil/foil_7.jpeg"
+      ]
+      
+    },
+    {
+      "id": 10,
+      "name": "Xpert Stainles Steel Scrubber",
+      "desc": "For a powerful clean, the Xpert Stainless Steel Scrubber removes stubborn, burnt-on stains with its durable, rust-proof design.",
+      "price": 15,
+      "color": "#a7c4c6",
+      "images": [
+        "https://www.martizo.com/wp-content/uploads/2025/03/Xpert-Stainless-Steel-Scrub.jpg",
+        "assets/images/Xpert/Xpert_Scrubber.jpeg"   
+      ]
+      
     }
+
 
 
     ]
