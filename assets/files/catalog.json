@@ -1,34 +1,102 @@
 {
-    "product" : [
-        {
-            "id": 1,
-            "name": "iPhone 15 Pro",
-            "desc": "The latest and greatest from Apple. Featuring the A17 Pro chip, a customizable Action button, and the best iPhone camera system yet.",
-            "price": 999,
-            "color": "#33505a",
-            "images": [
-                "https://m.media-amazon.com/images/I/81CgtwSII3L._SL1500_.jpg",
-                "https://cdn1.smartprix.com/rx-iVnpXHInm-w420-h420/apple-iphone-15-pro.webp",
-                "https://cdn1.smartprix.com/rx-iMvT6HNDE-w1200-h1200/apple-iphone-15-pro.webp"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Samsung Galaxy S24",
-            "desc": "Galaxy AI is here. Search like never before, get real-time translations on a call, and edit your photos with AI.",
-            "price": 899,
-            "color": "#f5f5f5",
-            "images": [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCUaI4tqvsexaZw2KzYYzc6Q_JwPJ8lIYkYw&s",
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvKp4sux35s1jQVWRfD_Q9Du6SDOESmS-7g&s",
-                "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/09/Galaxy-S24-5K3-scaled.jpg?ssl=1"
-            ]
-        },
-        {
+  "product" : [
+    {
+      "id": 1,
+      "name": "Anmol Focus product",
+      "desc": "1. Anmol Dream Lite : ₹5,₹10,₹20,₹30\n2. Anmol Hitrun: ₹5,₹10,₹20\n3. Anmol Coconut Cookies: ₹10\n4. Anmol Jeera Dhamaal: ₹5,₹10,₹20\n5. Anmol Digestive: ₹20\n6. Anmol Coconut Premium: ₹20,₹30\n7. Anmol Kaju Bake: ₹5,₹10,₹20",
+      "price": "10-30",
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/anmol/Focus_pro.jpeg",
+        "assets/images/anmol/pro3.png",
+        "assets/images/anmol/pro2.png",
+        "assets/images/anmol/pro1.png",
+        "assets/images/anmol/pro4.png"
+
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Anmol Cookies and Sweet",
+      "desc": "1. Anmol Romanzo: ₹10, ₹30, ₹200 (Jar)\n2. Anmol e-time: ₹10\n3. Anmol Butter Fresh: ₹5, ₹10\n4. Anmol Smileys: ₹10, ₹30\n5. Anmol Butter Bake: ₹5, ₹10, ₹20\n6. Anmol Coconutty: ₹5, ₹10\n7. Anmol Bakersbix: ₹5, ₹10, ₹20\n8. Anmol Milk Made: ₹5, ₹10, ₹35",
+      "price": "10-30",
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/anmol/sweet_canva.png",
+        "assets/images/anmol/Sweet_1.png",
+        "assets/images/anmol/Sweet_2.png",
+        "assets/images/anmol/sweet_3.png"
+      ]
+    },
+    {
       "id": 3,
+      "name": "Anmol Crackers and Cream",
+      "desc": "1. Anmol Butter Twinz: ₹5, ₹10, ₹20\n2. Anmol Jadoo: ₹5, ₹10, ₹20\n3. Anmol Tip Top: ₹5, ₹30, ₹80 (Jar), ₹220 (Jar)\n4. Anmol 2-in-1: ₹5, ₹10\n5. Anmol TOP: ₹20, ₹30\n6. Anmol Snack It!: ₹5, ₹10\n7. Anmol Veg Munch: ₹20\n8. Anmol Yummy: ₹5, ₹10, ₹20\n9. Anmol Lemon Mazaa!: ₹5, ₹10\n10. Anmol Fruit Mazaa: ₹5, ₹10\n11. Anmol Choco Mazaa: ₹5, ₹10",
+      "price": "10-30",
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/anmol/Cracker.png",
+        "assets/images/anmol/Cracker_1.png",
+        "assets/images/anmol/Cracker_2.png",
+        "assets/images/anmol/Cream.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Anmol Health and Cake",
+      "desc": "1. Anmol Marie Plus: ₹5, ₹10, ₹30\n2. Anmol Kream Cake: ₹5\n3. Anmol Yummy Layer Cake: ₹5\n4. Anmol Cake (Bar Cake): ₹10",
+      "price": "10-30",
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/anmol/Cake.jpeg",
+        "assets/images/anmol/Health.png",
+        "assets/images/anmol/Kream_cake.png",
+        "assets/images/anmol/Layer_cake.png",
+        "assets/images/anmol/Bar_cake.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kokila Products",
+      "desc": "1. Kokila Black Hair Color Shampoo: ₹20\n2. Kokila Vedshakti Mixed Fruits Skin Cream (Jar of 24 pcs): ₹240\n3. Kokila Rachni Mehandi (250gm bag): Approx. ₹75 - ₹90 online.\n4. Kokila Mehandi Cones: Approx. ₹10 - ₹12.50 per cone (sold in boxes).\n5. Super Kokila Mehandi: A 1kg packet has an MRP of ₹330.",
+      "price": "10-330",
+      "color": "#a7c4c6",
+      "images": [
+        "https://sanayafashions.com/wp-content/uploads/2025/05/Kokila-Mehandi-Cone-01.png",
+        "assets/images/Kokila/Kokila_BlackHair.jpeg",
+        "assets/images/Kokila/Mehandi_cone.jpeg",
+        "assets/images/Kokila/Mehandi.jpeg",
+        "assets/images/Kokila/Kokila.jpeg",
+        "assets/images/Kokila/Kokila_Vedshakti.jpeg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Paper Boat Swing, 150 ml",
+      "desc": "Enjoy the delightful taste of summer with Paper Boat Swing's Slurpy Mango. This ready-to-serve fruit beverage packs the sweet, authentic flavor of ripe mangoes into a fun and convenient on-the-go pouch. It's a 'Juicier Drink' perfect for a quick, refreshing treat for all ages.",
+      "price": "10",
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/Paper_Boat/pp.png",
+        "assets/images/Paper_Boat/pp2.png" 
+      ]
+    },
+          {
+            "id": 7,
+            "name": "Paper Boat Swing Mixed Fruit Medley Juicer Drink, 600 ml",
+            "desc": "Experience an easy dish-washing experience with Xpert Double Action Formula Dishwash Bar as it effectively removes tough stains and grease from the utensils. This bar is soft on your hands and gives you sparkling clean dishes while leaving behind a pleasant fragrance. So go ahead and buy this product online today!",
+            "price": "45",
+            "color": "#a7c4c6",
+            "images": [
+              "assets/images/Paper_Boat/Paper_boat.png",
+              "assets/images/Paper_Boat/Paper_Boat_1.png" 
+            ]
+          },
+        {
+      "id": 8,
       "name": "Super foils (25m)",
       "desc": "Super foils 25 mter is high-quality silver foil for various uses.",
-      "price": 88,
+      "price": "88",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_1.png",
@@ -37,10 +105,10 @@
 
     },
     {
-      "id": 4,
+      "id": 9,
       "name": "Super foils (9m)",
       "desc": "Super foils 9 mter is high-quality silver foil for various uses.",
-      "price": 38,
+      "price": "38",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_3.png",
@@ -49,10 +117,10 @@
       
     },
      {
-      "id": 5,
+      "id": 10,
       "name": "Shine foils (25m)",
       "desc": "Shine foils 25 mter is high-quality silver foil for various uses.",
-      "price": 130,
+      "price": "130",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_2.png",
@@ -61,10 +129,10 @@
       
     },
     {
-      "id": 55,
+      "id": 11,
       "name": "Shine foils (9m)",
       "desc": "Shine foils 9 mter is high-quality silver foil for various uses.",
-      "price": 88,
+      "price": "88",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_6.png",
@@ -73,10 +141,10 @@
       
     },
     {
-      "id": 295,
+      "id": 12,
       "name": "Shine foils (72m)",
       "desc": "Shine foils 72 mter is high-quality silver foil for various uses.",
-      "price": 88,
+      "price": "88",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_4.png",
@@ -85,10 +153,10 @@
       
     },
     {
-      "id": 8,
+      "id": 13,
       "name": "Shine foils (72 Number)",
       "desc": "Shine foils 72 Number is high-quality silver foil for various uses.",
-      "price": 190,
+      "price": "190",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_5.png",
@@ -97,10 +165,10 @@
       
     },
     {
-      "id": 9,
+      "id": 14,
       "name": "Shine foils (1 Kg GROSS)",
       "desc": "Shine foils 1 Kg GROSS is high-quality silver foil for various uses.",
-      "price": 380,
+      "price": "380",
       "color": "#a7c4c6",
       "images": [
         "assets/images/foil/foil_7.png",
@@ -109,10 +177,10 @@
       
     },
     {
-      "id": 10,
+      "id": 15,
       "name": "Xpert Stainles Steel Scrubber",
       "desc": "For a powerful clean, the Xpert Stainless Steel Scrubber removes stubborn, burnt-on stains with its durable, rust-proof design.",
-      "price": 15,
+      "price": "15",
       "color": "#a7c4c6",
       "images": [
         "https://www.martizo.com/wp-content/uploads/2025/03/Xpert-Stainless-Steel-Scrub.jpg",
@@ -121,10 +189,10 @@
       
     },
     {
-      "id": 11,
+      "id": 16,
       "name": "Xpert Extra Thick Srcb Pad",
       "desc": "The Xpert Extra Thick Scrub Pad offers powerful grease-cutting action and 2X cleaning double life. Its durable and extra-thick design tackles tough messes effectively, making dishwashing easier and more efficient.",
-      "price": 18,
+      "price": "18",
       "color": "#a7c4c6",
       "images": [
         "https://www.xpertdishwash.com/storage/products/August2021/GbOgDL5MVKU95J7z9Nfe.png",
@@ -133,10 +201,10 @@
       
     },
     {
-      "id": 12,
+      "id": 17,
       "name": "Xpert Double Action Formula",
       "desc": "Introducing the Xpert Double Action Dishwash Bar, the specialist for tough kitchen stains. Its powerful formula easily removes burnt spices and stubborn turmeric (haldi) marks. Engineered to dissolve 50% less, this long-lasting bar delivers a brilliant, scratch-free clean every time.",
-      "price": 30,
+      "price": "30",
       "color": "#a7c4c6",
       "images": [
         "https://dukaan.b-cdn.net/700x700/webp/media/aa1d7be8-f908-4806-a640-5e746b9d0056.jpg",
@@ -145,41 +213,15 @@
       
     },
     {
-      "id": 13,
+      "id": 18,
       "name": "Xpert Double Action Formulab (Smart Saver Pack)",
       "desc": "Experience an easy dish-washing experience with Xpert Double Action Formula Dishwash Bar as it effectively removes tough stains and grease from the utensils. This bar is soft on your hands and gives you sparkling clean dishes while leaving behind a pleasant fragrance. So go ahead and buy this product online today!",
-      "price": 60,
+      "price": "60",
       "color": "#a7c4c6",
       "images": [
         "https://www.xpertdishwash.com/storage/products/May2019/500gPack+Maroonscrubberfree.png",
         "assets/images/Xpert/Action_2.png"   
-      ]
-      
-    },
-    {
-      "id": 14,
-      "name": "Paper Boat Swing Mixed Fruit Medley Juicer Drink, 600 ml",
-      "desc": "Experience an easy dish-washing experience with Xpert Double Action Formula Dishwash Bar as it effectively removes tough stains and grease from the utensils. This bar is soft on your hands and gives you sparkling clean dishes while leaving behind a pleasant fragrance. So go ahead and buy this product online today!",
-      "price": 45,
-      "color": "#a7c4c6",
-      "images": [
-        "assets/images/Paper_Boat/Paper_boat.png",
-        "assets/images/Paper_Boat/Paper_Boat_1.png" 
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Paper Boat Swing, 150 ml",
-      "desc": "Enjoy the delightful taste of summer with Paper Boat Swing's Slurpy Mango. This ready-to-serve fruit beverage packs the sweet, authentic flavor of ripe mangoes into a fun and convenient on-the-go pouch. It's a 'Juicier Drink' perfect for a quick, refreshing treat for all ages.",
-      "price": 10,
-      "color": "#a7c4c6",
-      "images": [
-        "assets/images/Paper_Boat/pp.png",
-        "assets/images/Paper_Boat/pp2.png" 
-      ]
+      ]   
     }
-
-
-
     ]
 }

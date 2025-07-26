@@ -3,7 +3,7 @@
 class Item {
   final int id;
   final String name;
-  final num price;
+  final String price;
   final String description;
   final List<String> images;
   final String color;
