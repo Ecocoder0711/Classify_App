@@ -11,51 +11,53 @@ class CatalogItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return VxBox(
-      child: Row(
-        children: [
-          Hero(
-            tag: Key(catalog.id.toString()),
-            child: CatalogImage(image: catalog.images[0]).h32(context),
-          ),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                catalog.name.text.lg
-                    .color(context.theme.primaryColor)
-                    .bold
-                    .make(),
-                catalog.description.text
-                    .textStyle(context.captionStyle)
-                    .maxLines(2)
-                    .overflow(TextOverflow.ellipsis)
-                    .make(),
-                10.heightBox,
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    SizedBox(height: 10),
-                    "₹${catalog.price}".text.bold.xl.make().p16(),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     // We will add functionality here later.
-                    //   },
-                    //   // ElevatedButton.styleFrom is a cleaner constructor for styling.
-                    //   style: ElevatedButton.styleFrom(
-                    //     backgroundColor: context.theme.highlightColor,
-                    //     shape: const StadiumBorder(),
-                    //   ),
-                    //   child: "Add to Order".text.white.make(),
-                    // ),
-                  ],
-                ),
-              ],
+    return IntrinsicHeight(
+      child: VxBox(
+        child: Row(
+          children: [
+            Hero(
+              tag: Key(catalog.id.toString()),
+              child: CatalogImage(image: catalog.images[0]).h40(context),
             ),
-          ),
-        ],
-      ),
-    ).color(context.cardColor).rounded.square(150).make().py16();
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  catalog.name.text.lg
+                      .color(context.theme.primaryColor)
+                      .bold
+                      .make(),
+                  catalog.description.text
+                      .textStyle(context.captionStyle)
+                      .maxLines(2)
+                      .overflow(TextOverflow.ellipsis)
+                      .make(),
+                  10.heightBox,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      SizedBox(height: 20),
+                      "₹${catalog.price}".text.bold.lg.make().p16(),
+                      // ElevatedButton(
+                      //   onPressed: () {
+                      //     // We will add functionality here later.
+                      //   },
+                      //   // ElevatedButton.styleFrom is a cleaner constructor for styling.
+                      //   style: ElevatedButton.styleFrom(
+                      //     backgroundColor: context.theme.highlightColor,
+                      //     shape: const StadiumBorder(),
+                      //   ),
+                      //   child: "Add to Order".text.white.make(),
+                      // ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ).color(context.cardColor).rounded.square(170).make().py24(),
+    );
   }
 }

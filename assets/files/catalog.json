@@ -119,6 +119,64 @@
         "assets/images/Xpert/Xpert_Scrubber.jpeg"   
       ]
       
+    },
+    {
+      "id": 11,
+      "name": "Xpert Extra Thick Srcb Pad",
+      "desc": "The Xpert Extra Thick Scrub Pad offers powerful grease-cutting action and 2X cleaning double life. Its durable and extra-thick design tackles tough messes effectively, making dishwashing easier and more efficient.",
+      "price": 18,
+      "color": "#a7c4c6",
+      "images": [
+        "https://www.xpertdishwash.com/storage/products/August2021/GbOgDL5MVKU95J7z9Nfe.png",
+        "assets/images/Xpert/Xpert_Extra_thick_pad.jpeg"   
+      ]
+      
+    },
+    {
+      "id": 12,
+      "name": "Xpert Double Action Formula",
+      "desc": "Introducing the Xpert Double Action Dishwash Bar, the specialist for tough kitchen stains. Its powerful formula easily removes burnt spices and stubborn turmeric (haldi) marks. Engineered to dissolve 50% less, this long-lasting bar delivers a brilliant, scratch-free clean every time.",
+      "price": 30,
+      "color": "#a7c4c6",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/media/aa1d7be8-f908-4806-a640-5e746b9d0056.jpg",
+        "assets/images/Xpert/Action_1.png"   
+      ]
+      
+    },
+    {
+      "id": 13,
+      "name": "Xpert Double Action Formulab (Smart Saver Pack)",
+      "desc": "Experience an easy dish-washing experience with Xpert Double Action Formula Dishwash Bar as it effectively removes tough stains and grease from the utensils. This bar is soft on your hands and gives you sparkling clean dishes while leaving behind a pleasant fragrance. So go ahead and buy this product online today!",
+      "price": 60,
+      "color": "#a7c4c6",
+      "images": [
+        "https://www.xpertdishwash.com/storage/products/May2019/500gPack+Maroonscrubberfree.png",
+        "assets/images/Xpert/Action_2.png"   
+      ]
+      
+    },
+    {
+      "id": 14,
+      "name": "Paper Boat Swing Mixed Fruit Medley Juicer Drink, 600 ml",
+      "desc": "Experience an easy dish-washing experience with Xpert Double Action Formula Dishwash Bar as it effectively removes tough stains and grease from the utensils. This bar is soft on your hands and gives you sparkling clean dishes while leaving behind a pleasant fragrance. So go ahead and buy this product online today!",
+      "price": 45,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/Paper_Boat/Paper_boat.png",
+        "assets/images/Paper_Boat/Paper_Boat_1.png" 
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Paper Boat Swing, 150 ml",
+      "desc": "Enjoy the delightful taste of summer with Paper Boat Swing's Slurpy Mango. This ready-to-serve fruit beverage packs the sweet, authentic flavor of ripe mangoes into a fun and convenient on-the-go pouch. It's a 'Juicier Drink' perfect for a quick, refreshing treat for all ages.",
+      "price": 10,
+      "color": "#a7c4c6",
+      "images": [
+        "assets/images/Paper_Boat/pp.png",
+        "assets/images/Paper_Boat/pp2.png" 
+      ]
     }
 
 
