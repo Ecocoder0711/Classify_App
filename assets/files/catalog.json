@@ -225,7 +225,7 @@
       "price": "18",
       "color": "#a7c4c6",
       "images": [
-        "https://www.xpertdishwash.com/storage/products/August2021/GbOgDL5MVKU95J7z9Nfe.png",
+        "assets/images/Xpert/srub.png",
         "assets/images/Xpert/Xpert_Extra_thick_pad.jpeg"   
       ]
       
@@ -249,7 +249,7 @@
       "price": "60",
       "color": "#a7c4c6",
       "images": [
-        "https://www.xpertdishwash.com/storage/products/May2019/500gPack+Maroonscrubberfree.png",
+        "assets/images/Xpert/wash.png",
         "assets/images/Xpert/Action_2.png"   
       ]   
     }

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: Mytheme.lightTheme(context),
       darkTheme: Mytheme.darkTheme(context),
-      initialRoute: MyRoutes.homeRoute,
+      initialRoute: MyRoutes.splashRoute,
       // Update the routes map
       routes: {
         MyRoutes.splashRoute: (context) => const SplashPage(),
